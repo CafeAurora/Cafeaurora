@@ -3,16 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cafe Aurora - Fresh Breakfasts & Lunches</title>
-  <meta name="description" content="Cafe Aurora Liverpool - Home-cooked breakfasts, lunches, kids meals, takeaway and delivery.">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Cafe Aurora - Welcome</title>
+  <meta name="description" content="Welcome to Cafe Aurora, Liverpool. Homemade breakfasts, lunches, kids meals, burgers, and more. Collection and delivery available.">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url('https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+    header {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 1rem;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.85);
+      border-radius: 10px;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    footer {
+      background-color: rgba(255, 255, 255, 0.9);
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #555;
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <h1>Cafe Aurora</h1>
+    <h1>Welcome to Cafe Aurora</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -22,33 +69,28 @@
     </nav>
   </header>
 
-  <section class="hero">
-    <h2>Welcome to Cafe Aurora</h2>
-    <p>Home-cooked breakfasts, lunches, and fresh coffee. Collection and Delivery Available!</p>
-  </section>
-<section class="menu-preview">
-  <h2>Our Breakfasts</h2>
-  <ul>
-    <li><strong>Small Breakfast:</strong> Bacon, Sausage, Egg, Mushroom, Beans, Black Pudding, Tomatoes, Toast, Fried Bread, Fresh Orange Juice, Tea or Coffee</li>
-    <li><strong>Large Breakfast:</strong> 2 Bacons, 2 Sausages, 1 Egg, Mushroom, Beans, Tomatoes, Hash Browns, Black Pudding, Toast, Fried Bread, Fresh Orange Juice, Tea or Coffee</li>
-    <li><strong>Mega Breakfast:</strong> 3 Bacon, 3 Sausages, Ulster Fry, 2 Eggs, Mushrooms, Beans, Tomatoes, 2 Hash Browns, Black Pudding, Toast, Fried Bread, Fresh Orange Juice, Tea or Coffee</li>
-    <li><strong>Veggie Breakfast:</strong> Veggie Sausage, Egg, Tomatoes, Beans, Mushrooms, Hash Brown, Toast, Fresh Orange Juice, Tea or Coffee</li>
-  </ul>
-</section>
-<section class="gallery">
-  <h2>Gallery</h2>
-  <div class="gallery-grid">
-    <img src="images/breakfast1.jpg" alt="Delicious Breakfast 1">
-    <img src="images/breakfast2.jpg" alt="Delicious Breakfast 2">
-    <img src="images/coffee1.jpg" alt="Hot Coffee Cup">
-    <img src="images/cake1.jpg" alt="Slice of Cake">
-  </div>
-</section>
-<footer>
-  <p>Visit us at 118 Hunts Cross Avenue, Liverpool L25 8SQ</p>
-  <p>Call us on <a href="tel:07720651155">07720 651155</a> - Collection & Delivery Available!</p>
-  <p>&copy; 2025 Cafe Aurora. All rights reserved.</p>
-</footer>
+  <main>
+    <h2>Delicious Homemade Food in Liverpool</h2>
+    <p>At Cafe Aurora, we offer hearty breakfasts, delicious lunches, fresh salads, kids meals, burgers, rice boxes, noodle boxes, and much more! Whether you’re dining in, collecting, or having food delivered, we are here to serve you with a smile.</p>
+
+    <h2>Popular Choices</h2>
+    <ul>
+      <li>Full English Breakfasts</li>
+      <li>Homemade Kids Meals</li>
+      <li>Fresh Salads and Pastas</li>
+      <li>Homemade Chicken Burgers & Zingers</li>
+      <li>Rice Boxes and Noodle Boxes</li>
+      <li>Jack Potatoes with a Choice of Fillings</li>
+    </ul>
+
+    <h2>Find Us</h2>
+    <p>118 Hunts Cross Avenue, Liverpool L25 8SQ</p>
+    <p>Call us at <a href="tel:07720651155">07720 651155</a> — Collection & Delivery Available!</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Cafe Aurora. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
