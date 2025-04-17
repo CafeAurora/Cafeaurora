@@ -2,136 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cafe Aurora</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
-      background-size: cover;
-      color: #fff;
-    }
-    .overlay {
-      background-color: rgba(0, 0, 0, 0.7);
-      min-height: 100vh;
-      padding: 40px;
-    }
-    h1, h2 {
-      text-align: center;
-      margin-top: 20px;
-    }
-    .section {
-      max-width: 900px;
-      margin: 0 auto 40px;
-      padding: 20px;
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 10px;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    li {
-      padding: 5px 0;
-      font-size: 18px;
-    }
-    .contact {
-      text-align: center;
-      margin-top: 30px;
-      font-size: 18px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Aurora - Fresh Breakfasts & Lunches</title>
+  <meta name="description" content="Cafe Aurora Liverpool - Home-cooked breakfasts, lunches, kids meals, takeaway and delivery.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="overlay">
-    <h1>Welcome to Cafe Aurora</h1>
-    <div class="contact">
-      <p><strong>Address:</strong> 118 Hunts Cross Avenue, Liverpool L25 8SQ</p>
-      <p><strong>Phone:</strong> 07720 651155</p>
-      <p><strong>Collection and Delivery Available</strong></p>
-    </div>
-
-    <div class="section">
-      <h2>Breakfast Menu</h2>
+  <header>
+    <h1>Cafe Aurora</h1>
+    <nav>
       <ul>
-        <li><strong>Small Breakfast:</strong> Bacon, Sausage, Egg, Mushroom, Beans, Black Pudding, Tomatoes, Toast, Fried Bread, including Fresh Orange Juice, Tea or Coffee</li>
-        <li><strong>Large Breakfast:</strong> 2 Bacons, 2 Sausages, 1 Egg, Mushroom, Beans, Tomatoes, Hash Browns, Black Pudding, Toast, Fried Bread, including Fresh Orange Juice, Tea or Coffee</li>
-        <li><strong>Mega Breakfast:</strong> 3 Bacons, 3 Sausages, Ulster Fry, 2 Eggs, Mushrooms, Beans, Tomatoes, 2 Hash Browns, Black Pudding, Toast, Fried Bread, including Fresh Orange Juice, Tea or Coffee</li>
-        <li><strong>Veggie Breakfast:</strong> Veggie Sausage, Egg, Tomatoes, Beans, Mushrooms, Hash Brown, Toast, including Fresh Orange Juice, Tea or Coffee</li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About Us</a></li>
       </ul>
-    </div>
+    </nav>
+  </header>
 
-    <div class="section">
-      <h2>Kids Meals</h2>
-      <ul>
-        <li>Homemade Chicken Nuggets</li>
-        <li>Homemade Chicken Boujon</li>
-        <li>Sausage and Chips</li>
-        <li>Pizza and Chips</li>
-        <li>Fish Fingers and Chips</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Salads and Pastas</h2>
-      <ul>
-        <li>Pasta, Ham, Tuna Mix, Piri Piri Chicken, Salt and Pepper Chicken</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Boxes</h2>
-      <ul>
-        <li>Rice Box</li>
-        <li>Noodle Box</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Toasties</h2>
-      <ul>
-        <li>Bacon</li>
-        <li>Sausage</li>
-        <li>Bacon, Sausage and Egg</li>
-        <li>Ulster Fry and Egg</li>
-        <li>Bacon, with Brown or Red Sauce</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Jacket Potatoes</h2>
-      <ul>
-        <li>Choice of Fillings: Tuna, Chicken and Bacon, Coronation Chicken, Cheese and Beans, Piri Piri Chicken</li>
-        <li>All come with Salad</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Sandwiches & Wraps</h2>
-      <ul>
-        <li>Chicken and Stuffing</li>
-        <li>Coronation Chicken</li>
-        <li>Peri-Peri Chicken</li>
-        <li>Ham and Cheese</li>
-        <li>Salt and Pepper Chicken</li>
-        <li>Cheese and Onion</li>
-        <li>Tuna Crunch</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Burgers</h2>
-      <ul>
-        <li>Chicken Burger and Chips</li>
-        <li>Chicken Zinger Burger and Chips</li>
-        <li>Beef Burger and Chips</li>
-        <li>Pie and Chips</li>
-        <li>Salt and Pepper Chips</li>
-        <li>Includes Wholemeal Bread, Coleslaw, and Salad</li>
-      </ul>
-    </div>
-
-  </div>
-</body>
-</html>
+  <section class="hero">
+    <h2>Welcome to Cafe Aurora</h2>
+    <p>Home-cooked breakfasts, lunches, and fresh coffee. Collection and Delivery Available!</p>
+  </section>
+<section class="menu-preview">
+  <h2>Our Breakfasts</h2>
+  <ul>
+    <li><strong>Small Breakfast:</strong> Bacon, Sausage, Egg, Mushroom, Beans, Black Pudding, Tomatoes, Toast, Fried Bread, Fresh Orange Juice, Tea or Coffee</li>
+    <li><strong>Large Breakfast:</strong> 2 Bacons, 2 Sausages, 1 Egg, Mushroom, Beans, Tomatoes, Hash Browns, Black Pudding, Toast, Fried Bread, Fresh Orange Juice, Tea or Coffee</li>
+    <li><strong>Mega Breakfast:</strong> 3 Bacon, 3 Sausages, Ulster Fry, 2 Eggs, Mushrooms, Beans, Tomatoes, 2 Hash Browns, Black Pudding, Toast, Fried Bread, Fresh Orange Juice, Tea or Coffee</li>
+    <li><strong>Veggie Breakfast:</strong> Veggie Sausage, Egg, Tomatoes, Beans, Mushrooms, Hash Brown, Toast, Fresh Orange Juice, Tea or Coffee</li>
+  </ul>
+</section>
