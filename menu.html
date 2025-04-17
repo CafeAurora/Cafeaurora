@@ -4,99 +4,149 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menu - Cafe Aurora</title>
-  <meta name="description" content="Explore Cafe Aurora's full menu including breakfasts, kids meals, salads, pastas, toasties, burgers and more.">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="description" content="Explore the full menu at Cafe Aurora - Breakfasts, Kids Meals, Salads, Pastas, Burgers, Toasties, and more.">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: url('https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+    header {
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    main {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 40px;
+      margin: 40px auto;
+      border-radius: 10px;
+      max-width: 1000px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+    h1, h2 {
+      color: #555;
+    }
+    footer {
+      background: rgba(255, 255, 255, 0.95);
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      box-shadow: 0px -2px 8px rgba(0,0,0,0.1);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a {
+      color: #555;
+    }
+  </style>
 </head>
 <body>
 
-  <header>
-    <h1>Cafe Aurora - Menu</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="about.html">About Us</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="menu">
-    <h2>Breakfasts</h2>
+<header>
+  <h1>Our Menu</h1>
+  <nav>
     <ul>
-      <li>Small Breakfast</li>
-      <li>Large Breakfast</li>
-      <li>Mega Breakfast</li>
-      <li>Veggie Breakfast</li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About Us</a></li>
     </ul>
+  </nav>
+</header>
 
-    <h2>Kids Meals</h2>
-    <ul>
-      <li>Homemade Chicken Nuggets</li>
-      <li>Homemade Chicken Boujon</li>
-      <li>Sausage and Chips</li>
-      <li>Pizza and Chips</li>
-      <li>Fish Fingers and Chips</li>
-    </ul>
+<main>
+  <h2>Breakfast</h2>
+  <ul>
+    <li>Small Breakfast: Bacon, Sausage, Egg, Mushroom, Beans, Black Pudding, Tomatoes, Toast, Fried Bread. Includes Fresh Orange Juice, Tea or Coffee.</li>
+    <li>Large Breakfast: 2 Bacon, 2 Sausages, Egg, Mushroom, Beans, Tomatoes, Hash Browns, Black Pudding, Toast, Fried Bread. Includes Fresh Orange Juice, Tea or Coffee.</li>
+    <li>Mega Breakfast: 3 Bacon, 3 Sausages, Ulster Fry, 2 Eggs, Mushrooms, Beans, Tomatoes, 2 Hash Browns, Black Pudding, Toast, Fried Bread. Includes Fresh Orange Juice, Tea, or Coffee.</li>
+    <li>Veggie Breakfast: Veggie Sausage, Egg, Tomatoes, Beans, Mushrooms, Hash Brown, Toast. Includes Fresh Orange Juice, Tea or Coffee.</li>
+  </ul>
 
-    <h2>Salads and Pastas</h2>
-    <ul>
-      <li>Pasta with Ham</li>
-      <li>Tuna Mix</li>
-      <li>Piri Piri Chicken</li>
-      <li>Salt and Pepper Chicken</li>
-      <li>Rice Box</li>
-      <li>Noodle Box</li>
-    </ul>
+  <h2>Kids Meals</h2>
+  <ul>
+    <li>Homemade Chicken Nuggets</li>
+    <li>Homemade Chicken Goujon</li>
+    <li>Sausage and Chips</li>
+    <li>Pizza and Chips</li>
+    <li>Fish Fingers and Chips</li>
+  </ul>
 
-    <h2>Toasties</h2>
-    <ul>
-      <li>Bacon</li>
-      <li>Sausage</li>
-      <li>Bacon, Sausage and Egg</li>
-      <li>Ulster Fry and Egg</li>
-      <li>Bacon (with Brown or Red Sauce)</li>
-    </ul>
+  <h2>Salads & Pastas</h2>
+  <ul>
+    <li>Pasta - Ham, Tuna Mix, Piri Piri Chicken, Salt and Pepper Chicken</li>
+  </ul>
 
-    <h2>Jacket Potatoes</h2>
-    <ul>
-      <li>Tuna</li>
-      <li>Chicken and Bacon</li>
-      <li>Coronation Chicken</li>
-      <li>Cheese and Beans</li>
-      <li>Piri Piri Chicken</li>
-      <li>Served with Salad</li>
-    </ul>
+  <h2>Rice & Noodle Boxes</h2>
+  <ul>
+    <li>Rice Box</li>
+    <li>Noodle Box</li>
+  </ul>
 
-    <h2>Sandwiches & Wraps</h2>
-    <ul>
-      <li>Chicken and Stuffing</li>
-      <li>Coronation Chicken</li>
-      <li>Peri-Peri Chicken</li>
-      <li>Ham and Cheese</li>
-      <li>Salt and Pepper Chicken</li>
-      <li>Cheese and Onion</li>
-      <li>Tuna Crunch</li>
-    </ul>
+  <h2>Toasties</h2>
+  <ul>
+    <li>Bacon</li>
+    <li>Sausage</li>
+    <li>Bacon & Sausage</li>
+    <li>Bacon, Sausage & Egg</li>
+    <li>Ulster Fry & Egg</li>
+  </ul>
 
-    <h2>Burgers</h2>
-    <ul>
-      <li>Chicken Burger and Chips</li>
-      <li>Chicken Zinger Burger and Chips</li>
-      <li>Beef Burger and Chips</li>
-      <li>Pie and Chips</li>
-      <li>Salt and Pepper Chips</li>
-      <li>Includes Wholemeal, Coleslaw and Salad</li>
-    </ul>
-  </section>
+  <h2>Jacket Potatoes</h2>
+  <ul>
+    <li>Choice of Fillings: Tuna, Chicken and Bacon, Coronation Chicken, Cheese and Beans, Piri Piri Chicken, or Served with Salad.</li>
+  </ul>
 
-  <footer>
-    <p>Visit us at 118 Hunts Cross Avenue, Liverpool L25 8SQ</p>
-    <p>Call us on <a href="tel:07720651155">07720 651155</a> - Collection & Delivery Available!</p>
-    <p>&copy; 2025 Cafe Aurora. All rights reserved.</p>
-  </footer>
+  <h2>Sandwiches and Wraps</h2>
+  <ul>
+    <li>Chicken and Stuffing</li>
+    <li>Coronation Chicken</li>
+    <li>Piri-Piri Chicken</li>
+    <li>Ham and Cheese</li>
+    <li>Salt and Pepper Chicken</li>
+    <li>Cheese and Onion</li>
+    <li>Tuna Crunch</li>
+  </ul>
+
+  <h2>Burgers and More</h2>
+  <ul>
+    <li>Chicken Burger and Chips</li>
+    <li>Chicken Zinger Burger and Chips</li>
+    <li>Beef Burger and Chips</li>
+    <li>Pie and Chips</li>
+    <li>Salt and Pepper Chips</li>
+  </ul>
+
+  <h2>Extras</h2>
+  <p>All meals include Home made Coleslaw, and Salad.</p>
+
+  <h2>Visit Us</h2>
+  <p><strong>Address:</strong> 118 Hunts Cross Avenue, Liverpool L25 8SQ</p>
+  <p><strong>Phone:</strong> <a href="tel:07720651155">07720 651155</a></p>
+  <p><strong>Collection and Delivery Available!</strong></p>
+</main>
+
+<footer>
+  &copy; 2025 Cafe Aurora | Designed with ❤️
+</footer>
 
 </body>
 </html>
